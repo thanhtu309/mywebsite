@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5a;
+    background-color: #ffff;
+    text-rendering: optimizeLegibility;
+}
+
+ol,
+ul,
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.nav {
+    max-width: 1200px;
+    background-color: aqua;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 80%;
+    margin: 30px;
+}
+.img{
+    width: 100%;
+}
+
+h1{
+    margin-left: 300px;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin-left: 100px;
+}
+h2{
+    margin-left: 300px;
+}
+
+/* language section */
+.d-flex {
+    display: flex;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.f-lang {
+    text-decoration-line: underline;
+}
+
+/* Navigation Section */
+
+.nav {
+    margin-right: 15px;
+}
+
+.nav a {
+    color:blanchedalmond;
+}
+
+.nav-item:last-child {
+    margin-right: 0px;
+}
+
+.nav-item {
+    fill: #ffff;
+    font-weight: 600;
+    transition: all 0.3s;
+    margin-right: 25px;
+}
+
+.nav-item a:hover {
+    color: #1ed760;
+}
+
+/* footer section*/
+
+#footer {
+    background-color:blanchedalmond;
+    padding: 8% 0;
+}
+
+
+.col-lg-2 {
+    flex: calc(100%/4);
+}
+
+.col-lg-2 ul li a {
+    color:black;
+    transition: all 0.3s;
+}
+
+.col-lg-2 ul li a:hover {
+    color:red;
+}
+
+.col-lg-2 ul li {
+    margin: 20px 0px;
+}
+
+.fa-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.fa-circle a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tw-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.tw-circle a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.in-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #5a5a5a;
+    position: relative;
+    border-radius: 100%;
+}
+
+.in-circle a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.f-item a {
+    font-size: 1.5rem;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
