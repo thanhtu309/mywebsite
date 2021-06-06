@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-left: 20px;
 }
 
 body {
@@ -24,6 +25,7 @@ a {
 .nav {
     max-width: 1200px;
     background-color: aqua;
+
 }
 
 .row{
@@ -168,4 +170,6 @@ h2{
 
 .j-end {
     justify-content: flex-end;
+    
 }
+
